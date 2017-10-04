@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
 
 @import url('https://fonts.googleapis.com/css?family=Asap+Condensed:400,400i,500,500i,600,600i|Bitter:400,400i,700|Maven+Pro:400,500,700|Merriweather:400,400i,700,700i|Noto+Serif:400,400i,700,700i|Oswald:300,400,500|Roboto+Slab:400,700|Ruda:400,700,900|Slabo+27px|Rock+Salt&subset=latin-ext');
 
@@ -9,3 +8,5 @@ body { background-color: #721330; }
 h1 { font-family: 'Rock Salt', cursive; font-size: 70px; }
 h2, h3, h4, h5, h6 { font-family: 'Ruda', sans-serif; }
 p { font-family: 'Maven Pro', serif; }
+
+#ipv4 { font-family: 'Maven Pro', serif; font-size: 20px; color: white; }
