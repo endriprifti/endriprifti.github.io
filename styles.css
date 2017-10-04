@@ -5,7 +5,7 @@
 h1, h2, h3, h4, h5, h6, p { color: white; }
 body { background-color: #721330; }
 
-h1 { font-family: 'Rock Salt', cursive; font-size: 4em; margin: 0; }
+h1 { font-family: 'Rock Salt', cursive; font-size: 4em; }
 h2, h3, h4, h5, h6 { font-family: 'Ruda', sans-serif; }
 p { font-family: 'Maven Pro', serif; }
 
