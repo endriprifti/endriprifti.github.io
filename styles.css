@@ -9,4 +9,4 @@ h1 { font-family: 'Rock Salt', cursive; font-size: 70px; }
 h2, h3, h4, h5, h6 { font-family: 'Ruda', sans-serif; }
 p { font-family: 'Maven Pro', serif; }
 
-#ipv4 { font-family: 'Maven Pro', serif; font-size: 20px; color: white; }
+#ipv4 { font-family: 'Maven Pro', serif; font-size: 1em; color: white; }
