@@ -16,7 +16,7 @@ p { font-family: 'Maven Pro', serif; }
 
 #header {
 	position: relative;
-	padding: 10px;
+	padding: 20px;
 	height: 80px;
 	line-height: 80px;
 	background-color: steelblue;
@@ -51,7 +51,7 @@ p { font-family: 'Maven Pro', serif; }
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	background-color: steelblue;
+	background-color: steelblue; 
 }
 
 #ipv4 { 
@@ -65,7 +65,8 @@ p { font-family: 'Maven Pro', serif; }
 	margin: 0; padding: 0;
 }
 
-a { font-family: 'Roboto', sans-serif; color: whitesmoke; text-decoration: none; }
+a, a:link, a:visited, a:active { font-family: 'Roboto', sans-serif; color: whitesmoke; text-decoration: none; }
+a:hover { color: orange; }
 
 .sidebar { float: right; width: 200px; background-color: crimson; padding: 10px; }
 
@@ -74,3 +75,23 @@ a { font-family: 'Roboto', sans-serif; color: whitesmoke; text-decoration: none;
 .phototext { text-align: center; color: #fff; }
 
 .clearfloat { clear: both; }
+
+footer {
+	position: relative;
+	height: 30px;
+	background-color: olivedrab;
+	padding-left: 10px;
+	text-align: center;
+}
+
+footer p { 
+	font-family: 'Roboto', sans-serif;
+	color: whitesmoke;
+	line-height: 30px;
+	font-size: 15px;
+}
+
+
+
+
+
