@@ -69,6 +69,15 @@ nav ul li {
 a, a:link, a:visited, a:active { font-family: 'Roboto', sans-serif; color: whitesmoke; text-decoration: none; }
 a:hover { color: yellow; }
 
+main { float: left; width: 690px; padding-right: 10px; }
+
+main article {
+	-moz-column-count: 2;
+  	-webkit-column-count: 2;
+  	column-count: 2;
+	text-align: justify;
+}
+
 aside { float: right; width: 200px; background-color: crimson; padding: 10px; }
 
 .photo { display: inline-block; width: 190px; margin: 5px; }
