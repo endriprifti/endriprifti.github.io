@@ -2,11 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Asap+Condensed:400,400i,500,500i,600,600i|Bitter:400,400i,700|Maven+Pro:400,500,700|Merriweather:400,400i,700,700i|Noto+Serif:400,400i,700,700i|Oswald:300,400,500|Roboto+Slab:400,700|Ruda:400,700,900|Slabo+27px|Rock+Salt&subset=latin-ext');
 
-h1 {  }
 h2, h3, h4, h5, h6 { font-family: 'Ruda', sans-serif; }
 p { font-family: 'Maven Pro', serif; }
 
-#ipv4 { font-family: 'Maven Pro', serif; font-size: 1em; color: white; }
+#ipv4 { font-family: 'Maven Pro', serif; font-size: 1em; color: crimson; }
 
 
 .relative {
@@ -17,6 +16,7 @@ p { font-family: 'Maven Pro', serif; }
 	border: 1px solid #ccc;
 	margin: 10px auto;
 }
+
 #header {
 	position: relative;
 	padding: 10px;
@@ -25,18 +25,26 @@ p { font-family: 'Maven Pro', serif; }
 	background: #999;
 	color: #fff
 }
-#header h1 { font-family: 'Rock Salt', cursive; font-size: calc(12px + 3vw); font-weight: normal;margin:0;padding:0; float: left;}
+
+#header h1 { 
+	font-family: 'Rock Salt', cursive; font-size: calc(12px + 3vw); 
+	font-weight: normal;
+	margin:0;
+	padding:0;
+	float: left;
+}
+
 #search { float: right; }
+
 #search input { padding: 5px; }
+
 #nav {
 	position: relative;
 	height: 30px;
 	background: #ccc;
 }
-#nav ul {
-	margin: 0;
-	padding: 0;
-}
+#nav ul { margin: 0; padding: 0; }
+
 #nav ul li {
 	float: left;
 	list-style:none;
@@ -48,12 +56,14 @@ p { font-family: 'Maven Pro', serif; }
 	text-align: center;
 	background: #ddd;
 }
+
 .sidebar {
 	float: right;
 	width: 200px;
 	background-color: purple;
 	padding: 10px;
 }
+
 .ib {
 	display: inline-block;
 	width: 70px;
@@ -63,4 +73,5 @@ p { font-family: 'Maven Pro', serif; }
 	border: #ccc;
 	margin: 5px;
 }
+
 .clearfloat { clear: both; }
