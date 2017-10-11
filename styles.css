@@ -14,7 +14,7 @@ p { font-family: 'Maven Pro', serif; }
 	margin: 10px auto;
 }
 
-#header {
+header {
 	position: relative;
 	padding: 20px;
 	height: 80px;
@@ -23,7 +23,7 @@ p { font-family: 'Maven Pro', serif; }
 	color: #fff;
 }
 
-#header h1 { 
+header h1 { 
 	font-family: 'Rock Salt', cursive; font-size: calc(12px + 3vw); 
 	font-weight: normal;
 	margin:0;
@@ -35,14 +35,15 @@ p { font-family: 'Maven Pro', serif; }
 
 #search input { padding: 5px; }
 
-#nav {
+nav {
 	position: relative;
 	height: 30px;
 	background-color:silver;
 }
-#nav ul { margin: 0; padding: 0; }
 
-#nav ul li {
+nav ul { margin: 0; padding: 0; }
+
+nav ul li {
 	float: left;
 	list-style:none;
 	padding: 0;
@@ -68,7 +69,7 @@ p { font-family: 'Maven Pro', serif; }
 a, a:link, a:visited, a:active { font-family: 'Roboto', sans-serif; color: whitesmoke; text-decoration: none; }
 a:hover { color: yellow; }
 
-.sidebar { float: right; width: 200px; background-color: crimson; padding: 10px; }
+aside { float: right; width: 200px; background-color: crimson; padding: 10px; }
 
 .photo { display: inline-block; width: 190px; margin: 5px; }
 
@@ -90,8 +91,3 @@ footer p {
 	line-height: 30px;
 	font-size: 15px;
 }
-
-
-
-
-
