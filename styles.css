@@ -66,7 +66,7 @@ p { font-family: 'Maven Pro', serif; }
 }
 
 a, a:link, a:visited, a:active { font-family: 'Roboto', sans-serif; color: whitesmoke; text-decoration: none; }
-a:hover { color: orange; }
+a:hover { color: yellow; }
 
 .sidebar { float: right; width: 200px; background-color: crimson; padding: 10px; }
 
