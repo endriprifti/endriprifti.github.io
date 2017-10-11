@@ -25,7 +25,7 @@ p { font-family: 'Maven Pro', serif; }
 	background: #999;
 	color: #fff
 }
-#header h1 { font-family: 'Rock Salt', cursive; font-size: calc(12px + 2vw); font-weight: normal;margin:0;padding:0; float: left;}
+#header h1 { font-family: 'Rock Salt', cursive; font-size: calc(12px + 3vw); font-weight: normal;margin:0;padding:0; float: left;}
 #search { float: right; }
 #search input { padding: 5px; }
 #nav {
