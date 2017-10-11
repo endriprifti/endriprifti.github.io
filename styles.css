@@ -32,8 +32,17 @@ header h1 {
 }
 
 #search { float: right; }
-
-#search input { padding: 5px; border: medium solid #2A4F6E; color: gray;}
+#search input { 
+	padding: 5px; border: medium solid #2A4F6E; color: gray;
+	transition: border-color 300ms ease-out;
+}
+#search input:hover { 
+	border-color: steelblue; color: darkslategray;
+	transition: border-color 300ms ease-in;
+}
+#search input:focus { 
+	border-color: steelblue; color: darkslategray;
+}
 
 nav {
 	position: relative;
@@ -53,12 +62,12 @@ nav ul li {
 	line-height: 30px;
 	text-align: center;
 	background-color: steelblue;
-	transition: background-color 300ms ease-out 50ms;
+	transition: background-color 300ms ease-out;
 }
 
 nav ul li:hover {
 	background-color: #2A4F6E;
-	transition: background-color 300ms ease-in 50ms;
+	transition: background-color 300ms ease-in;
 }
 
 #ipv4 { 
