@@ -33,7 +33,7 @@ header h1 {
 
 #search { float: right; }
 
-#search input { padding: 5px; }
+#search input { padding: 5px; border: medium solid #2A4F6E; color: gray;}
 
 nav {
 	position: relative;
@@ -53,7 +53,7 @@ nav ul li {
 	line-height: 30px;
 	text-align: center;
 	background-color: steelblue;
-	transition: background-color 300ms ease-in 50ms;
+	transition: background-color 300ms ease-out 50ms;
 }
 
 nav ul li:hover {
