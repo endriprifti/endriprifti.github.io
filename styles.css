@@ -52,7 +52,13 @@ nav ul li {
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	background-color: steelblue; 
+	background-color: steelblue;
+	transition: background-color 300ms ease-in 50ms;
+}
+
+nav ul li:hover {
+	background-color: #2A4F6E;
+	transition: background-color 300ms ease-in 50ms;
 }
 
 #ipv4 { 
@@ -67,7 +73,6 @@ nav ul li {
 }
 
 a, a:link, a:visited, a:active { font-family: 'Roboto', sans-serif; color: whitesmoke; text-decoration: none; }
-a:hover { color: yellow; }
 
 main { float: left; width: 690px; padding-right: 10px; }
 
