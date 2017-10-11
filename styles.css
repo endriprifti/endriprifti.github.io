@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Asap+Condensed:400,400i,500,500i,600,600i|Bitter:400,400i,700|Maven+Pro:400,500,700|Merriweather:400,400i,700,700i|Noto+Serif:400,400i,700,700i|Oswald:300,400,500|Roboto:500|Roboto+Slab:400,700|Ruda:400,700,900|Slabo+27px|Rock+Salt&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed:400,400i,500,500i,600,600i|Bitter:400,400i,700|Maven+Pro:400,500|Merriweather:400,400i,700,700i|Noto+Serif:400,400i,700,700i|Oswald:300,400,500,600|Roboto:500|Roboto+Slab:400,700|Ruda:400,700,900|Slabo+27px|Rock+Salt&subset=latin-ext');
 
 h2, h3, h4, h5, h6 { font-family: 'Ruda', sans-serif; }
 p { font-family: 'Maven Pro', serif; }
@@ -72,7 +72,7 @@ a:hover { color: orange; }
 
 .photo { display: inline-block; width: 190px; margin: 5px; }
 
-.phototext { text-align: center; color: #fff; }
+.phototext { text-align: center;  font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 20px; color: #fff; }
 
 .clearfloat { clear: both; }
 
