@@ -87,8 +87,8 @@ body > div > div:first-child {
 }
 
 @keyframes border_animation {
-	from { border-color: goldenrod; }
-	to { border-color: forestgreen; }
+	from { border-color: darkgoldenrod; }
+	to { border-color: white; }
 }
 
 body > div > div:first-child > img {
@@ -153,11 +153,6 @@ body > div > div:nth-child(2) > span:nth-child(4) {
 
 /* FOOTER */
 
-@keyframes footer_animation {
-	from { color: whitesmoke; }
-	to { color: black; }
-}
-
 body > footer {
 	display: flex;
 	flex-direction: column;
@@ -172,14 +167,4 @@ body > footer > span#ipv4 {
 	font-weight: 500; font-size: 20px;
 	color: black;
 	text-align: center;
-	animation-name: footer_animation;
-	animation-duration: 3000ms;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
 }
-
-
-
-
-
-
