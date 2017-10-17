@@ -155,6 +155,7 @@ body > div > div:nth-child(2) > span:nth-child(4) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 body > div:nth-child(3), body > footer {
 =======
 @keyframes footer_animation {
@@ -164,6 +165,9 @@ body > div:nth-child(3), body > footer {
 
 body > footer {
 >>>>>>> parent of b4665f1... animacja new
+=======
+body > footer {
+>>>>>>> parent of 32e1b54... article
 =======
 body > footer {
 >>>>>>> parent of 32e1b54... article
@@ -180,6 +184,7 @@ body > footer > span#ipv4 {
 	font-weight: 500; font-size: 20px;
 	color: black;
 	text-align: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 }
@@ -234,6 +239,9 @@ body > article > section {
 
 
 >>>>>>> parent of b4665f1... animacja new
+=======
+}
+>>>>>>> parent of 32e1b54... article
 =======
 }
 >>>>>>> parent of 32e1b54... article
