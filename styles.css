@@ -5,7 +5,7 @@
 
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Armata|Titillium+Web:400,400i,600,600i,700,700i|PT+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Armata|Titillium+Web:400,400i,600,600i,700,700i|PT+Sans:400,400i,700,700i|Roboto+Mono:500|Fjalla+One');
 
 
 /* VIEWPORT */
@@ -94,8 +94,8 @@ body > div > div:first-child > img {
 }
 
 body > div > div:first-child > p {
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 400; font-size: 25px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px;
 	color: white;
 	text-align: center;
 	margin: .6em 0 0 0; padding: 0;
@@ -153,8 +153,8 @@ body > footer {
 }
 
 body > footer > span#ipv4 {
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 700; font-size: 20px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 500; font-size: 20px;
 	color: black;
 	text-align: center;
 }
