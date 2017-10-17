@@ -87,8 +87,8 @@ body > div > div:first-child {
 }
 
 @keyframes border_animation {
-	from { border-color: darkgoldenrod; }
-	to { border-color: white; }
+	from { border-color: goldenrod; }
+	to { border-color: forestgreen; }
 }
 
 body > div > div:first-child > img {
@@ -153,7 +153,16 @@ body > div > div:nth-child(2) > span:nth-child(4) {
 
 /* IP & FOOTER */
 
+<<<<<<< HEAD
 body > div:nth-child(3), body > footer {
+=======
+@keyframes footer_animation {
+	from { color: whitesmoke; }
+	to { color: black; }
+}
+
+body > footer {
+>>>>>>> parent of b4665f1... animacja new
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -168,6 +177,7 @@ body > div:nth-child(3) > span#ipv4, body > footer > span {
 	font-weight: 500; font-size: 20px;
 	color: black;
 	text-align: center;
+<<<<<<< HEAD
 }
 
 body > footer > span {
@@ -207,3 +217,16 @@ body > article > section {
 	column-gap: 2em;
 	column-rule: 1px solid black;
 }
+=======
+	animation-name: footer_animation;
+	animation-duration: 3000ms;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+
+
+
+
+>>>>>>> parent of b4665f1... animacja new
