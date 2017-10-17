@@ -40,11 +40,13 @@ body > nav > span {
 	font-family: 'Armata', sans-serif; 
 	font-weight: bold;
 	transition: background-color 300ms ease-out;
+	transform-origin: left;
 }
 
 body > nav > span:hover {
 	background-color: steelblue;
 	transition: background-color 300ms ease-out;
+	transform-origin: left;
 }
 
 body > nav > span > a:link,
