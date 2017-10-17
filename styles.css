@@ -1,0 +1,209 @@
+/*
+ *  written by shoku endri {}
+ *	on 2017-10-16
+*/
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Armata|Titillium+Web:400,400i,600,600i,700,700i|PT+Sans:400,400i,700,700i|Roboto+Mono:500|Fjalla+One|Roboto:500|Noticia+Text');
+
+
+/* VIEWPORT */
+
+/*html, body { height: 100%; } */
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* MENU */
+
+body > nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%; height: 60px;
+}
+
+body > nav > span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: .5em;
+	font-family: 'Armata', sans-serif; 
+	font-weight: bold;
+	box-shadow: inset 0 0 0 0 steelblue;
+	transition: all 500ms ease-out;
+}
+
+body > nav > span:hover {
+	box-shadow: inset 0 -100px 0 0 steelblue;
+}
+
+body > nav > span > a:link,
+body > nav > span > a:visited,
+body > nav > span > a:hover,
+body > nav > span > a:active { color: black; text-decoration: none; }
+
+
+/* MAIN */
+
+body > div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	background-color: crimson;
+	border-bottom-style: solid;
+	border-width: .75em;
+	border-color: goldenrod;
+}
+
+body > div > div:first-child, body > div > div:last-child { 
+	border-top-style: solid;
+	border-width: .75em;
+	border-color: steelblue;
+}
+
+
+/* FIRST CHILD */
+
+body > div > div:first-child { 
+	display: flex;
+	flex-direction: column;
+	flex-basis: 360px;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	width: 320px; height: 500px;
+}
+
+@keyframes border_animation {
+	from { border-color: darkgoldenrod; }
+	to { border-color: white; }
+}
+
+body > div > div:first-child > img {
+	width: 310px;
+	border: thick solid salmon;
+	animation-name: border_animation;
+	animation-duration: 3000ms;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+body > div > div:first-child > p {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	margin: .6em 0 0 0; padding: 0;
+}
+
+
+/* SECOND CHILD */
+
+body > div > div:nth-child(2) { 
+	display: flex;
+	flex-direction: column;
+	flex-basis: 360px;
+	flex-grow: 3;
+	justify-content: center;
+	align-items: center;
+	width: 100%; height: 500px;
+}
+
+body > div > div:nth-child(2) > img:nth-child(1) {
+	height: 6em;
+	margin: 0; padding: 0;
+}
+
+body > div > div:nth-child(2) > span:nth-child(2) {
+	font-family: 'Rock Salt', cursive;
+	font-size: 6em;
+	color: white;
+	text-align: center;
+	margin: 0; padding: 0;
+}
+
+body > div > div:nth-child(2) > span:nth-child(3) {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600; font-size: 40px;
+	color: white;
+	text-align: center;
+	margin: .5em 0; padding: 0;
+}
+
+body > div > div:nth-child(2) > span:nth-child(4) {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400; font-size: 20px;
+	color: white;
+	text-align: center;
+	margin: .5em 0; padding: 0;
+}
+
+
+/* IP & FOOTER */
+
+body > div:nth-child(3), body > footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%; height: 2.5em;
+	background-color: olivedrab;
+	border: none;
+}
+
+body > div:nth-child(3) > span#ipv4, body > footer > span {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 500; font-size: 20px;
+	color: black;
+	text-align: center;
+}
+
+body > footer > span {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+
+/* NANO'S ARTICLE */
+
+body > article {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 1.5em 0;
+	background-color: cadetblue;
+	color: black;
+}
+
+body > article > section > h2 {
+	column-span: all;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px;
+}
+
+body > article > section > p {
+	text-align: justify;
+	font-family: 'Noticia Text', serif;
+}
+
+body > article > section {
+	max-width: 80%;
+	columns: 4 14em;
+	column-gap: 2em;
+	column-rule: 1px solid black;
+}
