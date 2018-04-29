@@ -5,7 +5,7 @@
 
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Armata|Titillium+Web:400,400i,600,600i,700,700i|PT+Sans:400,400i,700,700i|Roboto+Mono:500|Fjalla+One|Roboto:500|Noticia+Text');
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat|Armata|Titillium+Web:400,400i,600,600i,700,700i|PT+Sans:400,400i,700,700i|Roboto+Mono:500|Fjalla+One|Roboto:500|Noticia+Text');
 
 
 /* VIEWPORT */
@@ -121,34 +121,37 @@ body > div > div:nth-child(2) {
 	width: 100%; height: 500px;
 }
 
-body > div > div:nth-child(2) > img:nth-child(1) {
-	height: 6em;
-	margin: 0; padding: 0;
-}
-
-body > div > div:nth-child(2) > span:nth-child(2) {
-	font-family: 'Rock Salt', cursive;
+body > div > div:nth-child(2) > span:nth-child(1) {
+	font-family: 'Armata', sans-serif;
 	font-size: 6em;
 	color: white;
 	text-align: center;
 	margin: 0; padding: 0;
 }
 
-body > div > div:nth-child(2) > span:nth-child(3) {
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 600; font-size: 40px;
-	color: white;
-	text-align: center;
-	margin: .5em 0; padding: 0;
-}
-
-body > div > div:nth-child(2) > span:nth-child(4) {
+body > div > div:nth-child(2) > span:nth-child(2) {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 400; font-size: 20px;
 	color: white;
 	text-align: center;
 	margin: .5em 0; padding: 0;
 }
+
+body > div > div:nth-child(2) > span:nth-child(3) {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 200; font-size: 18px;
+	text-align: center;
+	margin: .5em 0; padding: 0;
+}
+
+body > div > div:nth-child(2) > span:nth-child(3) > img {
+	height: 18px;
+}
+
+body > div > div:nth-child(2) > span:nth-child(3) a:active,
+body > div > div:nth-child(2) > span:nth-child(3) a:hover,
+body > div > div:nth-child(2) > span:nth-child(3) a:visited,
+body > div > div:nth-child(2) > span:nth-child(3) a:link { color: white; text-decoration: none; }
 
 
 /* IP & FOOTER */
