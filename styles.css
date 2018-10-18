@@ -1,18 +1,19 @@
 /*
- *  written by shoku endri {}
- *	on 2017-10-16
+ *  written by shoku endri
+ *	on 2018-10-18
 */
 
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat|Armata|Titillium+Web:400,400i,600,600i,700,700i|PT+Sans:400,400i,700,700i|Roboto+Mono:500|Fjalla+One|Roboto:500|Noticia+Text');
+@import url('https://fonts.googleapis.com/css?family=Armata|Roboto+Mono:500|Roboto:500');
 
 
 /* VIEWPORT */
 
-/*html, body { height: 100%; } */
+/*html, body { height: 100%; }*/
 
 body {
+	background-color: #388e3c;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -39,12 +40,13 @@ body > nav > span {
 	padding: .5em;
 	font-family: 'Armata', sans-serif; 
 	font-weight: bold;
-	box-shadow: inset 0 0 0 0 steelblue;
+	font-size:1em;
+	box-shadow: inset 0 0 0 0 #ffb300;
 	transition: all 500ms ease-out;
 }
 
 body > nav > span:hover {
-	box-shadow: inset 0 -100px 0 0 steelblue;
+	box-shadow: inset 0 100px 0 0 #ffb300;
 }
 
 body > nav > span > a:link,
@@ -55,160 +57,45 @@ body > nav > span > a:active { color: black; text-decoration: none; }
 
 /* MAIN */
 
-body > div {
+
+body > article {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
 	width: 100%;
-	background-color: crimson;
-	border-bottom-style: solid;
-	border-width: .75em;
-	border-color: goldenrod;
-}
-
-body > div > div:first-child, body > div > div:last-child { 
-	border-top-style: solid;
-	border-width: .75em;
-	border-color: steelblue;
-}
-
-
-/* FIRST CHILD */
-
-body > div > div:first-child { 
-	display: flex;
-	flex-direction: column;
-	flex-basis: 360px;
-	flex-grow: 1;
-	justify-content: center;
-	align-items: center;
-	width: 320px; height: 500px;
-}
-
-@keyframes border_animation {
-	from { border-color: darkgoldenrod; }
-	to { border-color: white; }
-}
-
-body > div > div:first-child > img {
-	width: 310px;
-	border: thick solid salmon;
-	animation-name: border_animation;
-	animation-duration: 3000ms;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
-
-body > div > div:first-child > p {
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 25px;
-	color: white;
-	text-align: center;
-	margin: .6em 0 0 0; padding: 0;
-}
-
-
-/* SECOND CHILD */
-
-body > div > div:nth-child(2) { 
-	display: flex;
-	flex-direction: column;
-	flex-basis: 360px;
-	flex-grow: 3;
-	justify-content: center;
-	align-items: center;
-	width: 100%; height: 500px;
-}
-
-body > div > div:nth-child(2) > span:nth-child(1) {
+	height: 5em;
 	font-family: 'Armata', sans-serif;
-	font-size: 6em;
-	color: white;
-	text-align: center;
-	margin: 0; padding: 0;
+	font-weight: bold;
+	font-size:6em;
+	color: #fff;
 }
-
-body > div > div:nth-child(2) > span:nth-child(2) {
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 400; font-size: 20px;
-	color: white;
-	text-align: center;
-	margin: .5em 0; padding: 0;
-}
-
-body > div > div:nth-child(2) > span:nth-child(3) {
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 200; font-size: 18px;
-	text-align: center;
-	margin: .5em 0; padding: 0;
-}
-
-body > div > div:nth-child(2) > span:nth-child(3) > img {
-	height: 18px;
-}
-
-body > div > div:nth-child(2) > span:nth-child(3) a:active,
-body > div > div:nth-child(2) > span:nth-child(3) a:hover,
-body > div > div:nth-child(2) > span:nth-child(3) a:visited,
-body > div > div:nth-child(2) > span:nth-child(3) a:link { color: white; text-decoration: none; }
 
 
 /* IP & FOOTER */
 
-body > div:nth-child(3), body > footer {
+body > div, body > footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%; height: 2.5em;
-	background-color: olivedrab;
+	background-color: black;
 	border: none;
 }
 
-body > div:nth-child(3) > span#ipv4, body > footer > span {
+body > div > span#ipv4, body > footer > span {
 	font-family: 'Roboto Mono', monospace;
-	font-weight: 500; font-size: 20px;
-	color: black;
+	font-weight: 500; font-size: 1.25em;
 	text-align: center;
 }
 
-body > footer { background-color: goldenrod; }
+body > div > span#ipv4 { color: white; }
+
+body > footer { background-color: #ffb300; }
 
 body > footer > span {
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-}
-
-
-/* NANO'S ARTICLE */
-
-body > article {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	padding: 1.5em 0;
-	background-color: cadetblue;
+	font-size: 1em;
 	color: black;
-}
-
-body > article > section > h2 {
-	column-span: all;
-	text-align: center;
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 25px;
-}
-
-body > article > section > p {
-	text-align: justify;
-	font-family: 'Noticia Text', serif;
-}
-
-body > article > section {
-	max-width: 80%;
-	columns: 4 14em;
-	column-gap: 2em;
-	column-rule: 1px solid black;
 }
