@@ -13,15 +13,14 @@
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
 
+		<script type="text/javascript">
+			var userip;
+		</script>
+
+		<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
 		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/typeit@6.0.2/dist/typeit.min.js"></script>
-		
-		<script type="text/javascript">new TypeIt('#simpleUsage', {
-  strings: 'This is a simple string.',
-  speed: 50,
-  waitUntilVisible: true
-}).go();
-</script>
 
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107492885-1"></script>
 		<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','UA-107492885-1');</script>
@@ -31,8 +30,11 @@
 			<div class="hero-body">
 				<div class="container">
 					<h1 class="title is-1">&raquo; endri &laquo;</h1>
-					<h2 class="subtitle"></h2>
-					<p id="simpleUsage"></p>
+					<h2 class="subtitle">
+						<script type="text/javascript">
+							document.write(userip);
+						</script>
+					</h2>
 				</div>
 
 			</div>
