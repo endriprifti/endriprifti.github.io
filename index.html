@@ -11,11 +11,13 @@
 		
 		<link rel="icon" href="favicon.png" sizes="32x32" type="image/png">
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css">
 
 		<script type="text/javascript">
 			var userip;
 		</script>
+
+		<style>@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');</style> 
 
 		<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
 
@@ -26,20 +28,28 @@
 		<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','UA-107492885-1');</script>
 	</head>
 	<body>
-		<section class="hero is-danger is-fullheight">
-			<div class="hero-body">
-				<div class="container">
-					<h1 class="title is-1">&raquo; endri &laquo;</h1>
-					<h2 class="title is-2">
-						<script type="text/javascript">
-							document.write(userip);
-						</script>
-					</h2>
-				</div>
-
+		<section class="hero is-info is-fullheight">
+			<div class="container is-fluid">
+				<nav class="level">
+  					<div class="level-item has-text-centered">
+						<span style="font-family: 'Bebas Neue', cursive; font-size: 17vw;">
+							<script type="text/javascript">document.write(userip);</script>
+						</span>
+					</div>
+				</nav>
 			</div>
-			<div class="container">
-				<p>&copy; Copyright 2019 by endri</p>
+
+			<div class="container is-fluid">
+				<nav class="level">
+  					<div class="level-item">
+						<span style="font-family: 'Bebas Neue', cursive; font-size: 8vw;">&raquo; endri &laquo;</span>
+					</div>
+				</nav>
+				<nav class="level">
+					<div class="level-item">
+						<p style="font-family: 'Bebas Neue', cursive; font-size: 5vw;">&copy; Copyright 2020</p>
+					</div>
+				</nav>
 			</div>
 		</section>
 	</body>
