@@ -1,7 +1,23 @@
-html { 
-  background: url(background.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+@media screen and (max-width: 768px) {
+	body { 
+		background-color: #423654;
+	}
+	
+	.eip		{ font-size: 20vw; }
+	.elogo 		{}
+	.ecopyright { font-size: 8vw;  }
+}
+
+@media screen and (min-width: 769px) {
+	body { 
+		background: url(background.png) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+	.eip		{ font-size: 10vw; }
+	.elogo		{ width:     45vw; }
+	.ecopyright	{ font-size: 5vw;  }
 }
